@@ -1,0 +1,59 @@
+                                                                        Sol
+                                                                        
+Version 0.01
+
+Copy Right 1/4/2023
+
+                                                                        
+          Sole is a software License agreement between the Developer and users. Under Sol, all the right of the software belong to developers that created it. 
+          The main goal of Sol is to find a healthy medium between the developers and users. 
+          Sol was designed to fix the flaws in the Open Source license agreements such as the GNU GPL2, GPL3 and MITS Licenses. 
+          It has  come to the author of Sol attention that its is hard to make a living off Software Development if you give away your code for free; 
+          however, the users should have the ability to gain access to the source code under the right conditions a compromise can be found. 
+          Think of Sol as a Capitalist friendly Open Source License that encourages innovation. 
+
+Terms and Conditions
+          1. Programs released under Sol are initially Closed Source Software. The Author of the Software has the right to the code. 
+          The user upon either buying the software or if the software was given to them for free, has the right to use the software as 
+          long as they do not attempt to reverse engineer the software 
+          or give it away for free. If the user desires to access the source code, he or she must ask the developer if 
+          they can buy rights to own the source code. 
+          
+        1.A upon request, the developer can either sell the Software out right or sell access to the Source Code. 
+          If the user buys access to source code, then the user has the right to make a derivative work for commercial, private or educational use 
+          as long as the user states any changes to the new work and gives credit to the original developer. 
+          The new project must also be released under the Sole License. 
+          All new code belongs to the users but the original code belongs to the original author of the software.
+          Buying the Source code allows you to create a new work and sell the binary/executable file only.
+          The user does not have the right to sell the source code or give it away for others to use it unless they transfer their rights to use the 
+          software. Alternatively, the user can buy as many access rights for others to use.
+
+
+          1.B If the user decides to buy the Software, then the developer must also sell the documentation, such as UML Diagrams, State Diagrams ect.
+          The user has all rights stated in section 1.A but now has a few additional freedoms. T
+          he user now has the right to sell access to their modified source code. 
+          A new notice must be included at the top of this license stating that this work is a derivative work.
+          The document must state the name of the original work. The user now has the right to sell their modified software. 
+          The User agreement in this case will make the formal user a developer with those privileges being applied for the Derivative work that was created.
+
+          2. Any person is free to use the source code for educational and non-commercial use as long as
+          You state where you got it from and include the Sole License, you are free to download an educational version of the software or study 
+          if the software is made available for non-commercial and private use. Under this section, you are not permitted to sell the software's 
+          binary or source code unless you have purchased access to the source code or you paid for the software.
+
+
+         3. If a corporation, LLC or individual creates a service using the software, then
+            20% of all profits made must be paid to the developer of the software. 
+            3.A The Sol License does not override other licenses. If a developer uses, for example, a GNU library to make a program, 
+            then the GNU License applies to the GNU Program and the Sole only applies to the newly written software that may rely on
+            the GNU Frame Work. It is advisable for developers to include all licenses from software they use to create a work under this clause.
+
+          4. If you violate the rules of this license, you will be given a warning with reasonable time to correct the error
+             if the offending party fails to comply, then the offender will lose the rights associated with the license 
+             and possible legal action could ensue. The Sol License was created in hopes to give developers and users equal rights under a hybrid open-source and business-friendly license.
+
+              THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+              EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+              FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+              DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE 
+              OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
