@@ -47,6 +47,7 @@ MarkI::MarkI(){
     al_install_audio();
     display = 0;
     gamestate = 1;
+    render = TRUE;
 
 
     fps = ALLEGRO_BPS_TO_SECS(1.0/60.0);
@@ -87,7 +88,14 @@ void MarkI::SetGameClock(double val){
 
 }
 
+int MarkI::GetRender(){
+    return this->render;
+}
 
+
+void MarkI::SetRender(int v){
+    this->render = v;
+}
 
 void MarkI::SetDisplay(){
     this->display = al_create_display(800,800);

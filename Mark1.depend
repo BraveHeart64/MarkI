@@ -1,14 +1,14 @@
 # depslib dependency file v1.0
-1672882416 source:/home/ryanlove/Desktop/Mark1/MarkI.cpp
+1672977449 source:/home/ryanlove/Desktop/Mark1/MarkI.cpp
 	"MarkI.h"
 
-1672882435 /home/ryanlove/Desktop/Mark1/MarkI.h
+1672980979 /home/ryanlove/Desktop/Mark1/MarkI.h
 	<allegro5/allegro.h>
 	<allegro5/allegro_image.h>
 	<allegro5/allegro_audio.h>
 	<allegro5/allegro_font.h>
 	<allegro5/allegro_native_dialog.h>
 
-1672880574 source:/home/ryanlove/Desktop/Mark1/main.cpp
+1672980778 source:/home/ryanlove/Desktop/Mark1/main.cpp
 	"MarkI.h"
 
