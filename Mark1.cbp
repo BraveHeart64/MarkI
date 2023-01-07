@@ -33,6 +33,7 @@
 		</Compiler>
 		<Unit filename="MarkI.cpp" />
 		<Unit filename="MarkI.h" />
+		<Unit filename="Music.cpp" />
 		<Unit filename="User.cpp" />
 		<Unit filename="User.h" />
 		<Unit filename="main.cpp" />

@@ -12,6 +12,7 @@
 int main(int argc, char ** argv){
 
     MarkI en;
+    Music sound;
 
     al_set_app_name("Angel Warrior");
     ALLEGRO_DISPLAY* test = NULL;

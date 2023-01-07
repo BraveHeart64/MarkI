@@ -3,6 +3,7 @@
 #include<allegro5/allegro_audio.h>
 #include<allegro5/allegro_font.h>
 #include<allegro5/allegro_native_dialog.h>
+#include"Music.cpp"
 
 #define TRUE  1
 #define FALSE 0
