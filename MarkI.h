@@ -3,6 +3,12 @@
 #include<allegro5/allegro_audio.h>
 #include<allegro5/allegro_font.h>
 #include<allegro5/allegro_native_dialog.h>
+#include"Music.cpp"
+#include"AmFileHandler.h"
+
+#define TRUE  1
+#define FALSE 0
+
 
 class MarkI{
 
@@ -15,7 +21,7 @@ class MarkI{
         double fps;
         int gamestate;
         int scene;
-
+        int render;
 
     public:
         ALLEGRO_DISPLAY* GetDisplay(ALLEGRO_DISPLAY* display);
@@ -26,6 +32,8 @@ class MarkI{
         ALLEGRO_EVENT*   GetEventRef();
         ALLEGRO_EVENT_QUEUE* GetQue(ALLEGRO_EVENT_QUEUE* q);
 
+        int  GetRender();
+        void SetRender(int v);
 
 
         int GetGameState();
