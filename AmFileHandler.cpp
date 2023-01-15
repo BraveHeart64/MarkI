@@ -1,6 +1,11 @@
 #include"AmFileHandler.h"
 
  AmFileHandler::AmFileHandler(){
+// cant find the bitmap
+   // al_get_standard_path(1);
+
+    this->path = al_create_path_for_directory("/Mark1/GameObjects");
+
 
 
  }
@@ -24,10 +29,15 @@ void AmFileHandler::LoadAFile(){
 
 
 }
-ALLEGRO_PATH* AmFileHandler::ReturnFilePath(ALLEGRO_PATH &p){
 
 
 
 
-return &p;
+
+ALLEGRO_PATH* AmFileHandler::ReturnFilePath(){
+
+
+
+
+return this->path;
 }

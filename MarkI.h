@@ -5,6 +5,7 @@
 #include<allegro5/allegro_native_dialog.h>
 #include"Music.cpp"
 #include"AmFileHandler.h"
+#include<iostream>
 
 #define TRUE  1
 #define FALSE 0

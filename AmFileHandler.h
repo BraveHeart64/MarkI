@@ -1,5 +1,6 @@
-#include<allegro5/file.h>
 
+#include<allegro5/allegro.h>
+#include<iostream>
 
 class AmFileHandler{
 
@@ -14,7 +15,8 @@ class AmFileHandler{
 
         void CreateAFilePath();
         void LoadAFile();
-        ALLEGRO_PATH* ReturnFilePath(ALLEGRO_PATH &p);
+
+        ALLEGRO_PATH* ReturnFilePath();
 
         AmFileHandler();
         ~AmFileHandler();
