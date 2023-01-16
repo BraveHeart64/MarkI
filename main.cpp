@@ -18,6 +18,7 @@ int main(int argc, char ** argv){
     al_set_app_name("Angel Warrior");
     ALLEGRO_DISPLAY* test = NULL;
 
+
 //  above code needs to be modify to retireve the icons
 
     ALLEGRO_PATH* dir;
@@ -26,7 +27,8 @@ int main(int argc, char ** argv){
 
     //cout<<al_get_current_directory()<<endl;
 
-    cout<<al_path_cstr(dir,ALLEGRO_NATIVE_PATH_SEP)<<endl;
+ //   cout<<al_path_cstr(dir,ALLEGRO_NATIVE_PATH_SEP)<<endl;
+   // std::cout<< al_get_path_tail(dir);
     bool leep = al_change_directory(al_path_cstr(dir,ALLEGRO_NATIVE_PATH_SEP));
 // main loop that will be rewritten for each game
    cout<<leep;
@@ -37,10 +39,12 @@ int main(int argc, char ** argv){
 
 
      ALLEGRO_BITMAP *icon = al_load_bitmap("icon.png");
+     al_set_app_name("Angel Wars");
     if(icon == 0){
         en.SetGameState( -6);
     }
     else{
+        en.SetIcon(icon);
         en.SetDisplay();
         en.GetDisplay(test);
         en.SetGameState(1);

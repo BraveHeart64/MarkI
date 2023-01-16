@@ -15,6 +15,7 @@ class MarkI{
 
     private:
         ALLEGRO_DISPLAY * display;
+        ALLEGRO_BITMAP* ic=0;
         ALLEGRO_TIMER* gameclock;
         ALLEGRO_EVENT event;
 
@@ -32,6 +33,7 @@ class MarkI{
         ALLEGRO_EVENT    GetEventType();
         ALLEGRO_EVENT*   GetEventRef();
         ALLEGRO_EVENT_QUEUE* GetQue(ALLEGRO_EVENT_QUEUE* q);
+        ALLEGRO_BITMAP* SetIcon(ALLEGRO_BITMAP* ic);
 
         int  GetRender();
         void SetRender(int v);

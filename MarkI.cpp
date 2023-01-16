@@ -102,6 +102,11 @@ void MarkI::SetDisplay(){
     this->display = al_create_display(800,800);
 }
 
+ALLEGRO_BITMAP* MarkI::SetIcon(ALLEGRO_BITMAP* ic){
+
+this->ic = ic;
+
+}
 
  ALLEGRO_TIMER* MarkI::GetGameClock(){
   return this->gameclock;
@@ -140,6 +145,7 @@ ALLEGRO_EVENT*  MarkI::GetEventRef(){return &this->event;}
     al_register_event_source(que,al_get_keyboard_event_source());
     al_register_event_source(que,al_get_timer_event_source(GetGameClock()));
     al_register_event_source(que,al_get_display_event_source(GetDisplay(this->display)));
+    al_set_display_icon(this->display,this->ic);
 
 
  }

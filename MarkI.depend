@@ -1,16 +1,16 @@
 # depslib dependency file v1.0
-1673849571 source:/home/ryanlove/Desktop/Mark1/AmFileHandler.cpp
+1673855090 source:/home/ryanlove/Desktop/Mark1/AmFileHandler.cpp
 	"AmFileHandler.h"
 
-1673806154 /home/ryanlove/Desktop/Mark1/AmFileHandler.h
+1673852774 /home/ryanlove/Desktop/Mark1/AmFileHandler.h
 	<allegro5/allegro.h>
 	<iostream>
 
-1673849611 source:/home/ryanlove/Desktop/Mark1/main.cpp
+1673854687 source:/home/ryanlove/Desktop/Mark1/main.cpp
 	"MarkI.h"
 	<iostream>
 
-1673807863 /home/ryanlove/Desktop/Mark1/MarkI.h
+1673854838 /home/ryanlove/Desktop/Mark1/MarkI.h
 	<allegro5/allegro.h>
 	<allegro5/allegro_image.h>
 	<allegro5/allegro_audio.h>
@@ -24,7 +24,7 @@
 	<allegro5/allegro_audio.h>
 	<allegro5/allegro_acodec.h>
 
-1673115468 source:/home/ryanlove/Desktop/Mark1/MarkI.cpp
+1673855187 source:/home/ryanlove/Desktop/Mark1/MarkI.cpp
 	"MarkI.h"
 
 1673116502 source:/home/ryanlove/Desktop/Mark1/Music.cpp
@@ -37,4 +37,43 @@
 1672981673 /home/ryanlove/Desktop/Mark1/User.h
 	<iostream>
 	<allegro5/allegro.h>
+
+1673852818 source:/home/ryanlove/Desktop/AndroidTutorials/Mark1/main.cpp
+	"MarkI.h"
+	<iostream>
+
+1673807863 /home/ryanlove/Desktop/AndroidTutorials/Mark1/MarkI.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_native_dialog.h>
+	"Music.cpp"
+	"AmFileHandler.h"
+	<iostream>
+
+1673116502 /home/ryanlove/Desktop/AndroidTutorials/Mark1/Music.cpp
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1673852774 /home/ryanlove/Desktop/AndroidTutorials/Mark1/AmFileHandler.h
+	<allegro5/allegro.h>
+	<iostream>
+
+1673115468 source:/home/ryanlove/Desktop/AndroidTutorials/Mark1/MarkI.cpp
+	"MarkI.h"
+
+1673116502 source:/home/ryanlove/Desktop/AndroidTutorials/Mark1/Music.cpp
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1672981639 source:/home/ryanlove/Desktop/AndroidTutorials/Mark1/User.cpp
+	"User.h"
+
+1672981673 /home/ryanlove/Desktop/AndroidTutorials/Mark1/User.h
+	<iostream>
+	<allegro5/allegro.h>
+
+1673853699 source:/home/ryanlove/Desktop/AndroidTutorials/Mark1/AmFileHandler.cpp
+	"AmFileHandler.h"
 
