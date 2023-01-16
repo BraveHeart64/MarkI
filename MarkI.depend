@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1673806087 source:/home/ryanlove/Desktop/Mark1/AmFileHandler.cpp
+1673849571 source:/home/ryanlove/Desktop/Mark1/AmFileHandler.cpp
 	"AmFileHandler.h"
 
 1673806154 /home/ryanlove/Desktop/Mark1/AmFileHandler.h
 	<allegro5/allegro.h>
 	<iostream>
 
-1673810357 source:/home/ryanlove/Desktop/Mark1/main.cpp
+1673849611 source:/home/ryanlove/Desktop/Mark1/main.cpp
 	"MarkI.h"
 	<iostream>
 

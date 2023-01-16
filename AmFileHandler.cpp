@@ -4,7 +4,8 @@
 // cant find the bitmap
    // al_get_standard_path(1);
 
-    this->path = al_create_path_for_directory("/Mark1/GameObjects");
+   // this->path = al_create_path_for_directory("/Mark1/GameObjects");
+    this->path = al_get_standard_path(ALLEGRO_RESOURCES_PATH);
 
 
 
