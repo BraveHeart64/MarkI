@@ -27,12 +27,13 @@ int main(int argc, char ** argv){
 
     //cout<<al_get_current_directory()<<endl;
 
- //   cout<<al_path_cstr(dir,ALLEGRO_NATIVE_PATH_SEP)<<endl;
    // std::cout<< al_get_path_tail(dir);
     bool leep = al_change_directory(al_path_cstr(dir,ALLEGRO_NATIVE_PATH_SEP));
 // main loop that will be rewritten for each game
    cout<<leep;
  //   cout<<al_get_current_directory()<<endl;
+
+    cout<<al_path_cstr(dir,ALLEGRO_NATIVE_PATH_SEP)<<endl;
     ALLEGRO_EVENT_QUEUE* q;
     q = en.GetQue(q);
 
