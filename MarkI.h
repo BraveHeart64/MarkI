@@ -30,6 +30,8 @@ class MarkI{
         ALLEGRO_TIMER*   GetGameClock();
         void             SetGameClock(double val);
         void             StartWindow();
+        void             DrawToScreen();
+        bool             Collision();
         ALLEGRO_EVENT    GetEventType();
         ALLEGRO_EVENT*   GetEventRef();
         ALLEGRO_EVENT_QUEUE* GetQue(ALLEGRO_EVENT_QUEUE* q);
