@@ -31,7 +31,7 @@ class MarkI{
         void             SetGameClock(double val);
         void             StartWindow();
         void             DrawToScreen();
-        bool             Collision();
+        int             Collision(); //I changed this to int because we can use our define for bool. I want this to work in vanila C as well as C++
         ALLEGRO_EVENT    GetEventType();
         ALLEGRO_EVENT*   GetEventRef();
         ALLEGRO_EVENT_QUEUE* GetQue(ALLEGRO_EVENT_QUEUE* q);
