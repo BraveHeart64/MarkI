@@ -1,7 +1,7 @@
 
 #include<allegro5/allegro.h>
 #include<iostream>
-
+#include<fstream>
 
 class AmFileHandler{
 

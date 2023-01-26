@@ -100,6 +100,13 @@ void MarkI::SetRender(int v){
 
 void MarkI::SetDisplay(){
     this->display = al_create_display(800,800);
+
+}
+
+void MarkI::DrawLevel(){
+
+
+
 }
 
 ALLEGRO_BITMAP* MarkI::SetIcon(ALLEGRO_BITMAP* ic){
