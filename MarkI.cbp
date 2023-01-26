@@ -33,6 +33,8 @@
 		</Compiler>
 		<Unit filename="AmFileHandler.cpp" />
 		<Unit filename="AmFileHandler.h" />
+		<Unit filename="GameAssests.cpp" />
+		<Unit filename="GameAssets.h" />
 		<Unit filename="MarkI.cpp" />
 		<Unit filename="MarkI.h" />
 		<Unit filename="Music.cpp" />

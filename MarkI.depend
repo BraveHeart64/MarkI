@@ -1,16 +1,17 @@
 # depslib dependency file v1.0
-1673934968 source:/home/ryanlove/Desktop/Mark1/AmFileHandler.cpp
+1673935277 source:/home/ryanlove/Desktop/Mark1/AmFileHandler.cpp
 	"AmFileHandler.h"
 
-1673852774 /home/ryanlove/Desktop/Mark1/AmFileHandler.h
+1674614235 /home/ryanlove/Desktop/Mark1/AmFileHandler.h
 	<allegro5/allegro.h>
 	<iostream>
+	<fstream>
 
-1673933562 source:/home/ryanlove/Desktop/Mark1/main.cpp
+1674703078 source:/home/ryanlove/Desktop/Mark1/main.cpp
 	"MarkI.h"
 	<iostream>
 
-1673854838 /home/ryanlove/Desktop/Mark1/MarkI.h
+1674704127 /home/ryanlove/Desktop/Mark1/MarkI.h
 	<allegro5/allegro.h>
 	<allegro5/allegro_image.h>
 	<allegro5/allegro_audio.h>
@@ -24,7 +25,7 @@
 	<allegro5/allegro_audio.h>
 	<allegro5/allegro_acodec.h>
 
-1673855187 source:/home/ryanlove/Desktop/Mark1/MarkI.cpp
+1674704458 source:/home/ryanlove/Desktop/Mark1/MarkI.cpp
 	"MarkI.h"
 
 1673116502 source:/home/ryanlove/Desktop/Mark1/Music.cpp
@@ -76,4 +77,12 @@
 
 1673853699 source:/home/ryanlove/Desktop/AndroidTutorials/Mark1/AmFileHandler.cpp
 	"AmFileHandler.h"
+
+1674703414 source:/home/ryanlove/Desktop/Mark1/GameAssests.cpp
+	"GameAssets.h"
+
+1674704447 /home/ryanlove/Desktop/Mark1/GameAssets.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<iostream>
 
