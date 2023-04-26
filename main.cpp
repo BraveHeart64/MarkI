@@ -1,25 +1,41 @@
 #include"MarkI.h"
 #include<iostream>
+#include<map>
 using namespace std;
 
-
-
-
-
-
-
- int main(int argc, char ** argv){
 
     MarkI en;
     Music sound;
     AmFileHandler ourfile;
+    ALLEGRO_EVENT_QUEUE* q = NULL;
+
+
+
+void UpdateGameLogic(){
+
+ if(en.GetRender() == true && al_is_event_queue_empty(q)){ // all game logic goes in here
+
+            al_clear_to_color(al_map_rgb(135,206,235));
+            al_flip_display();
+
+            en.SetRender(false);
+
+        }
+
+}
+
+ int main(int argc, char ** argv){
+
+
     al_set_app_name("Angel Warrior");
-    ALLEGRO_DISPLAY* test = NULL;
+    ALLEGRO_DISPLAY* window = NULL;
+
+
 
 
 //  above code needs to be modify to retireve the icons
 
-    ALLEGRO_PATH* dir;
+     ALLEGRO_PATH* dir;
 
      dir = ourfile.ReturnFilePath();
 
@@ -32,7 +48,7 @@ using namespace std;
  //   cout<<al_get_current_directory()<<endl;
 
     cout<<al_path_cstr(dir,ALLEGRO_NATIVE_PATH_SEP)<<endl;
-    ALLEGRO_EVENT_QUEUE* q;
+
     q = en.GetQue(q);
 
 
@@ -45,23 +61,67 @@ using namespace std;
     else{
         en.SetIcon(icon);
         en.SetDisplay();
-        en.GetDisplay(test);
+        en.GetDisplay(window);
         en.SetGameState(1);
         en.StartWindow();
+        al_clear_to_color(al_map_rgb(135,206,235));
+        al_flip_display();
+
 
     }
+    // not all cases happen in this loop check classes and make sure that they will work in the futuer
 
     while(en.GetGameState() > -5){
 
-        al_wait_for_event(q,en.GetEventRef());
-        switch(en.GetEventType().type){
-            case ALLEGRO_EVENT_TIMER:
-            // Game Logic
-            en.SetRender(TRUE);
 
-            break;
+        al_wait_for_event(q,en.GetEventRef());
+       // al_wait_for_event_timed(q,en.GetEventRef(),en.GetFPS());
+       if(en.GetEventRef()->type == ALLEGRO_EVENT_TIMER){
+       // Game controls for character movments
+        en.SetRender(true);
+
+       }else if(en.GetEventRef()->type == ALLEGRO_EVENT_KEY_DOWN){
+        switch(en.GetEventType().type){
+            case ALLEGRO_KEY_UP:
+
+            // Game Logic
+            //en.SetRender(TRUE);
+            // UpdateGameLogic();
+
+             break;
+
+             case ALLEGRO_KEY_RIGHT:
+
+
+             break;
+
+
+
+             case ALLEGRO_KEY_SPACE:
+
+
+
+             break;
+
+
+
+             case ALLEGRO_KEY_ENTER:
+
+
+             break;
+
+
+
+
+
 
             case ALLEGRO_EVENT_KEY_DOWN:
+            if(en.GetEventType().keyboard.keycode == ALLEGRO_KEY_ESCAPE){
+                en.SetGameState(-5);
+                cout<<"esc hit";
+
+                break;
+            }
 
 
             break;
@@ -76,13 +136,20 @@ using namespace std;
 
 
 
-        }
 
-        if(en.GetRender() && al_is_event_queue_empty(q)){
-            al_clear_to_color(al_map_rgb(0,0,0));
-            al_flip_display();
-            en.SetRender(FALSE);
+
+            }
         }
+        else if(en.GetEventRef()->type == ALLEGRO_EVENT_KEY_UP){
+            switch(en.GetEventRef()->keyboard.keycode){
+
+
+            }
+
+        }
+        en.SetRender(true); // allows the redraw code to work
+
+         UpdateGameLogic();
 
     }
 
