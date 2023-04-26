@@ -76,9 +76,12 @@ void UpdateGameLogic(){
 
         al_wait_for_event(q,en.GetEventRef());
        // al_wait_for_event_timed(q,en.GetEventRef(),en.GetFPS());
+
+
        if(en.GetEventRef()->type == ALLEGRO_EVENT_TIMER){
        // Game controls for character movments
         en.SetRender(true);
+
 
        }else if(en.GetEventRef()->type == ALLEGRO_EVENT_KEY_DOWN){
         switch(en.GetEventType().type){
@@ -129,10 +132,6 @@ void UpdateGameLogic(){
 
 
 
-            case ALLEGRO_EVENT_DISPLAY_CLOSE:
-                en.SetGameState(-5);
-
-            break;
 
 
 
@@ -151,7 +150,17 @@ void UpdateGameLogic(){
 
          UpdateGameLogic();
 
+         switch(en.GetEventType().type){ // quits upon hiting X on the window
+               case ALLEGRO_EVENT_DISPLAY_CLOSE:
+                en.SetGameState(-5);
+
+            break;
+
+        }
+
     }
+
+
 
 
 
